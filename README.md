@@ -1,14 +1,14 @@
-# SKV89's Video Compare Tool v1.1.3
+# SKV89's Video Compare Tool v1.1.4
 
 A portable Windows app for comparing two videos, lining up corresponding scenes, and saving paired frames.
 
-[Download v1.1.3 for Windows x64](https://github.com/skv89/SKV89s-Video-Compare-Tool/releases/tag/v1.1.3)
+[Download v1.1.4 for Windows x64](https://github.com/skv89/SKV89s-Video-Compare-Tool/releases/tag/v1.1.4) · [Changelog](https://github.com/skv89/SKV89s-Video-Compare-Tool/releases/tag/v1.1.4)
 
 ![Main window](screenshots/02-main-window-v1.1.3.png)
 
 ## Faster to open, smoother to use
 
-Compared with the original v1.0 release, v1.1.3 opens much faster, with smoother reveal-line movement and zoom-aware panning. Adaptive interaction updates slow down when the cursor is stationary or outside the comparison, reducing unnecessary CPU activity and idle overhead.
+Compared with the original v1.0 release, the current app opens much faster, with smoother reveal-line movement and zoom-aware panning. Adaptive interaction updates slow down when the cursor is stationary or outside the comparison, reducing unnecessary CPU activity and idle overhead.
 
 Actual system-resource use depends on the videos, playback, and sync searches; this does not mean every search is faster or uses fewer resources.
 
@@ -109,7 +109,9 @@ Both are per-user and removable from the app. If you move the portable folder, r
 | Up / Down | Seek forward / backward 15 seconds |
 | 1 / 2 | Fit the picture / show 1:1 source pixels |
 | P or Print Screen | Save the two clean JPG frames |
-| Left Shift | Cycle muted, Video 1, Video 2, or both audio tracks |
+| − | Reduce playback speed by one step |
+| + or = | Increase playback speed by one step; keypad −/+ also work |
+| Left Shift | Tap by itself to cycle muted, Video 1, Video 2, or both audio tracks |
 | H | Show or hide Help; use the wheel to scroll it |
 | Backspace or M | Return to setup, preserving the comparison position and view |
 | 4 / F11 | Restore an adjustable comparison window / toggle full screen |
@@ -119,7 +121,7 @@ Both are per-user and removable from the app. If you move the portable folder, r
 
 ## Requirements and download
 
-Windows x64, a writable portable folder, and enough decoding capacity for two videos at once. Download the portable ZIP from the [v1.1.3 release](https://github.com/skv89/SKV89s-Video-Compare-Tool/releases/tag/v1.1.3); the SHA-256 file lets you verify the download. The executable is unsigned, so Windows may display a reputation warning.
+Windows x64, a writable portable folder, and enough decoding capacity for two videos at once. Download the portable ZIP from the [v1.1.4 release](https://github.com/skv89/SKV89s-Video-Compare-Tool/releases/tag/v1.1.4); the SHA-256 file lets you verify the download. The executable is unsigned, so Windows may display a reputation warning.
 
 FFmpeg, FFprobe, mpv, and required runtime/license notices are included. Keep the full extracted folder together. The app does not modify the source videos.
 
