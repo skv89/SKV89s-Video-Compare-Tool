@@ -1,0 +1,1242 @@
+[
+  {
+    "path": "tools/ffmpeg/bin/avcodec-63.dll",
+    "sha256": "341961a75de2757df542d03bc5c6ee286248c7225ab4f12645b3d31f638ead26",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/ffmpeg/bin/avdevice-63.dll",
+    "sha256": "b8493d3a10091e80d157c940be67ee977325e4874200a9b012e7e24c5f21ba85",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/ffmpeg/bin/avfilter-12.dll",
+    "sha256": "7a39cb865402ea888d7da8689cb468887bb52a2b222cb09e24d15cc261f5b413",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/ffmpeg/bin/avformat-63.dll",
+    "sha256": "f8c013b95153be9c94589a0ac4cc1f5350b0bbec0ef875c9cae0cf91824654d7",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/ffmpeg/bin/avutil-61.dll",
+    "sha256": "1d042ec28707f26a115f9da801cf6aba2395f3e2b6e408bcd043a4a95735288d",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/ffmpeg/bin/ffmpeg.exe",
+    "sha256": "d665ac0bb1146b158872a19ee8395de244e3f32a7668066ba7fd21f102565f1d",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/ffmpeg/bin/ffprobe.exe",
+    "sha256": "66d0be803e6e5a58dbc8a9cc1fee9aaa783439d026520590185466de6f8b7faa",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/ffmpeg/bin/ggml-0.dll",
+    "sha256": "d9bdd05d8bfe2050b9724c223d2be3c6c6b93123d80f45fdba23419b1fce3f61",
+    "package": "mingw-w64-ucrt-x86_64-ggml"
+  },
+  {
+    "path": "tools/ffmpeg/bin/ggml-base-0.dll",
+    "sha256": "76160eb294c21aaef861f27d199ffafd5bc4e85e9a449f093a83b6f43b74389c",
+    "package": "mingw-w64-ucrt-x86_64-ggml"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libaom.dll",
+    "sha256": "61c2c12b0fd9fb42b4cdb5eca107eded4abe6ba8d59941e33737260da6f5355e",
+    "package": "mingw-w64-ucrt-x86_64-aom"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libass-9.dll",
+    "sha256": "cb2b46133b3bd9630384148bd7229e987af9703208d4329fc2215f4170b8dc6b",
+    "package": "mingw-w64-ucrt-x86_64-libass"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libbluray-4.dll",
+    "sha256": "24870a1b32ff8b36cfa94479d802dfabc55a12e7bbde8584606f7e2d44d3c6dd",
+    "package": "mingw-w64-ucrt-x86_64-libbluray"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libbrotlicommon.dll",
+    "sha256": "7b0047dc16dd92a7932124dfd5a6e698d342f533a15d37d61f710def66091436",
+    "package": "mingw-w64-ucrt-x86_64-brotli"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libbrotlidec.dll",
+    "sha256": "c4c987a01597ddf969d93023f933f999a20f285588b0decb4deeb780c9e9cdf8",
+    "package": "mingw-w64-ucrt-x86_64-brotli"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libbrotlienc.dll",
+    "sha256": "03f9a82d293caf5b4065a9641dd5309e27aefc5c8111eeec25f906e47ec6c934",
+    "package": "mingw-w64-ucrt-x86_64-brotli"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libbz2-1.dll",
+    "sha256": "1790bf6473c9d48db14c1f0ee8124142327556d281299ea2a72ee361118ee01a",
+    "package": "mingw-w64-ucrt-x86_64-bzip2"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libcaca-0.dll",
+    "sha256": "4ab7b69e156b77a76776237ad37054dc9558f18dc2cd4a9c2a4287a8811002b2",
+    "package": "mingw-w64-ucrt-x86_64-libcaca"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libcairo-2.dll",
+    "sha256": "be391428fd305983f888becae10ebab9d8009637e7805383e822740043e95849",
+    "package": "mingw-w64-ucrt-x86_64-cairo"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libcairo-gobject-2.dll",
+    "sha256": "060e586a23bc07d81cf9c9c2a3927dc2d61168fcc89b13601e98afdffffbfeb6",
+    "package": "mingw-w64-ucrt-x86_64-cairo"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libcrypto-3-x64.dll",
+    "sha256": "97308feea369b305e562c0098638a1b02a06f52ee9fcc4b8cf3da362ff563cf4",
+    "package": "mingw-w64-ucrt-x86_64-openssl"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libdatrie-1.dll",
+    "sha256": "40aee3ae9a62a77454dfe8419fe21b54c54d969e0471c9e817b65d4502a9949f",
+    "package": "mingw-w64-ucrt-x86_64-libdatrie"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libdav1d-7.dll",
+    "sha256": "bbe67862f77c22f6f509684207b5363542e5b52c1a1faa354e12a11d072ad766",
+    "package": "mingw-w64-ucrt-x86_64-dav1d"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libdeflate.dll",
+    "sha256": "61a60665da9fd15a0e8668c47424f325e1d74479c3f896fa7ae48ffcee4ca300",
+    "package": "mingw-w64-ucrt-x86_64-libdeflate"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libdovi.dll",
+    "sha256": "75988509f0d2166e2060ed548913bd7b34556bc16b3f9a02469de1dd2347a7fb",
+    "package": "mingw-w64-ucrt-x86_64-libdovi"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libexpat-1.dll",
+    "sha256": "8a10cf7e89524b621d5f74bd4aedc659c47c7ce397d489f323a1065ba695027a",
+    "package": "mingw-w64-ucrt-x86_64-expat"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libffi-8.dll",
+    "sha256": "f96cf79b75f33a10023d001673b564538023395c94b3c58e1db53114976a7c25",
+    "package": "mingw-w64-ucrt-x86_64-libffi"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libfontconfig-1.dll",
+    "sha256": "be30a200fa4000d0a7a1d3911391969627440148f01d0028a319bcb9fa112202",
+    "package": "mingw-w64-ucrt-x86_64-fontconfig"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libfreetype-6.dll",
+    "sha256": "19604dde573cbb8a13053fc231eee99b91cd972e0e9a3e1465f44ad6985e83ee",
+    "package": "mingw-w64-ucrt-x86_64-freetype"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libfribidi-0.dll",
+    "sha256": "14bd0ed4c24d0068434bc23cd4f39e8dc0edcf56f2c9996b6fe39b39ffc54673",
+    "package": "mingw-w64-ucrt-x86_64-fribidi"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libgcc_s_seh-1.dll",
+    "sha256": "791ebf66e99c7c1b4ed3666468cec45a0172b4c8942ac6c84c3e9cab3e1b5270",
+    "package": "mingw-w64-ucrt-x86_64-libgcc"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libgdk_pixbuf-2.0-0.dll",
+    "sha256": "0f51ba434b2080ab14ce5d6b0b890620be3716fa15460d519bf641ca8441dcd0",
+    "package": "mingw-w64-ucrt-x86_64-gdk-pixbuf2"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libgio-2.0-0.dll",
+    "sha256": "1256cbd7cb48df5ecea1646343d617c8e41a434216fdbb88ccfd78fe498442c8",
+    "package": "mingw-w64-ucrt-x86_64-glib2"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libglib-2.0-0.dll",
+    "sha256": "3a1abec0184b238db54399cb9243393d9436d96b8fdb9bd9f2875da207c5b458",
+    "package": "mingw-w64-ucrt-x86_64-glib2"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libgme.dll",
+    "sha256": "98e306bc1443f4f5a0744baf0477d2f856594bb3f8036440ad7cb1f30a1f5a72",
+    "package": "mingw-w64-ucrt-x86_64-libgme"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libgmodule-2.0-0.dll",
+    "sha256": "5833f90d3c7a627d4d1b541e873bf0b10bca2204be89666213b3c48f6a57422d",
+    "package": "mingw-w64-ucrt-x86_64-glib2"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libgmp-10.dll",
+    "sha256": "c2567ccf3f410c3411ba7cd4b7ba14f393a0e70a1d0c0593297df6706b5fba96",
+    "package": "mingw-w64-ucrt-x86_64-gmp"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libgnutls-30.dll",
+    "sha256": "f7f05c96572506c81f2ffa89b518234afa4af2603aad8903db257a4f1e97e9e6",
+    "package": "mingw-w64-ucrt-x86_64-gnutls"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libgobject-2.0-0.dll",
+    "sha256": "d12b1c34335cf605809af3b9bbed80a05c3334a9dbd02c0d398c1618d47f1d21",
+    "package": "mingw-w64-ucrt-x86_64-glib2"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libgomp-1.dll",
+    "sha256": "ccaf59dc8cff15ace88ab47acd68a5b014167cad8f960e7683466a4c821e41c4",
+    "package": "mingw-w64-ucrt-x86_64-libgomp"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libgraphite2.dll",
+    "sha256": "93953e4744bcfce9a7bc439b956544bc213095cb1349c3602a58370f32b25c18",
+    "package": "mingw-w64-ucrt-x86_64-graphite2"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libgsm.dll",
+    "sha256": "b3446b547f8894bcabf0aa98a78146c60b1cf6dba7ab55e6a726fb3739276bf4",
+    "package": "mingw-w64-ucrt-x86_64-gsm"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libharfbuzz-0.dll",
+    "sha256": "574ef797d2480d73283ecc993e272092bdb1dda45c4db5d36bf72a5a91baeec8",
+    "package": "mingw-w64-ucrt-x86_64-harfbuzz"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libhogweed-7.dll",
+    "sha256": "b48e33181b78d715ba310581f4c72376c959854638bf635e1703e5fc1b783498",
+    "package": "mingw-w64-ucrt-x86_64-nettle"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libhwy.dll",
+    "sha256": "9ba0ac7bad82c4c88e9bb8d6ca8c6a83877adc1f71cc48590c65b8d26108a41c",
+    "package": "mingw-w64-ucrt-x86_64-highway"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libiconv-2.dll",
+    "sha256": "94ec68fb8d342b6c91b6b48a8d95092819cdcd006a7166e0b68062f946afd08a",
+    "package": "mingw-w64-ucrt-x86_64-libiconv"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libidn2-0.dll",
+    "sha256": "a054a6bb69aaf4666157f968740412e9697085cbc1e48a78f8dd9622169c5aaf",
+    "package": "mingw-w64-ucrt-x86_64-libidn2"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libintl-8.dll",
+    "sha256": "0e5a178731e6be6d115442a6ade3df7f03265cd1fc4338f8b6f86a8001cbf582",
+    "package": "mingw-w64-ucrt-x86_64-gettext-runtime"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libjbig-0.dll",
+    "sha256": "36b6155be36d24a19154a48177a09978ff6c26f48665d8c7bb5057aaace6b91c",
+    "package": "mingw-w64-ucrt-x86_64-jbigkit"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libjpeg-8.dll",
+    "sha256": "c63acd5a3231725aa96aa35444b74cd8d607a6fbdab1dd18b0e0ada7e39476d4",
+    "package": "mingw-w64-ucrt-x86_64-libjpeg-turbo"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libjxl.dll",
+    "sha256": "f0db8ef57af445a5b807a5b6d27f9a3c4c7441af61cebfee5542fb7529fb35a5",
+    "package": "mingw-w64-ucrt-x86_64-libjxl"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libjxl_cms.dll",
+    "sha256": "da3bf1847c40b66ffc036212d83f5e9acb0770de737d0383c8f1efbef65388c9",
+    "package": "mingw-w64-ucrt-x86_64-libjxl"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libjxl_threads.dll",
+    "sha256": "b065e2464cf13626d2ad95f82091b4bd988dcc8aeb7fd65b364b59d4bdf4199e",
+    "package": "mingw-w64-ucrt-x86_64-libjxl"
+  },
+  {
+    "path": "tools/ffmpeg/bin/liblc3-1.dll",
+    "sha256": "970f6d805e215cc17df962c64e21449af3da97e09cb4a14a5f943bbd0e9c0329",
+    "package": "mingw-w64-ucrt-x86_64-liblc3"
+  },
+  {
+    "path": "tools/ffmpeg/bin/liblcms2-2.dll",
+    "sha256": "03314471fadd04cdd63c108472ff85d058903d236a0356c14eda363f0e1ccb65",
+    "package": "mingw-w64-ucrt-x86_64-lcms2"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libLerc.dll",
+    "sha256": "1ffee78579c25b073267bcac8d0a6045d9bd446e010c7953b569b2629ca8a58a",
+    "package": "mingw-w64-ucrt-x86_64-lerc"
+  },
+  {
+    "path": "tools/ffmpeg/bin/liblzma-5.dll",
+    "sha256": "d97a260b8bb4f6affc34ec47249429240068b94bb6f7dc30c4d64daaafb3ac69",
+    "package": "mingw-w64-ucrt-x86_64-xz"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libmodplug-1.dll",
+    "sha256": "d1425827ff8c5cc81dfc66d7d5660e9ea9bfda8ada71255a0c4847d0889ea62b",
+    "package": "mingw-w64-ucrt-x86_64-libmodplug"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libmp3lame-0.dll",
+    "sha256": "d28ee2c6d87346e3a4d96b03731362273c6ee24ee14d7b861be57c5b366aab79",
+    "package": "mingw-w64-ucrt-x86_64-lame"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libmpg123-0.dll",
+    "sha256": "bd63359e95781ce1a9f4e1d0d7c98be32583731e34d09df0c6a020d215048ff5",
+    "package": "mingw-w64-ucrt-x86_64-mpg123"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libnettle-9.dll",
+    "sha256": "9b9f8bffca94d3cca7d1afb77d9deb0fa34427eaa05f1832037f46bc9e3dc134",
+    "package": "mingw-w64-ucrt-x86_64-nettle"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libogg-0.dll",
+    "sha256": "2f102fba6f2a49516be85cb2643f6a9ba394dc5657aedb3ea235b6603c12d3d2",
+    "package": "mingw-w64-ucrt-x86_64-libogg"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libopenal-1.dll",
+    "sha256": "cb33f3a9505f38b4a82510bf303547e5e66c525eff591085c752e3d81dfc51cb",
+    "package": "mingw-w64-ucrt-x86_64-openal"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libopencore-amrnb-0.dll",
+    "sha256": "9d36d5661fd002f8889d90e0a53f2c5d693c641c075ef55c26ade85d958d1369",
+    "package": "mingw-w64-ucrt-x86_64-opencore-amr"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libopencore-amrwb-0.dll",
+    "sha256": "54341e49eab692d77e0ff8534a40a3cce6d0d58b9cd157ed69c817c4b852bbdb",
+    "package": "mingw-w64-ucrt-x86_64-opencore-amr"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libopenjp2-7.dll",
+    "sha256": "94f9507828d391cf96d700d34918114f1c1e03f91dd1243a19275e0435690925",
+    "package": "mingw-w64-ucrt-x86_64-openjpeg2"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libopus-0.dll",
+    "sha256": "e747edad6bf02cf5cdcce417b95be3b7ba108f93df1b024778be5d73fa6dae39",
+    "package": "mingw-w64-ucrt-x86_64-opus"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libp11-kit-0.dll",
+    "sha256": "c24fcbd4d67f6f837a1cc29bd37a2980670febfa64b1a424720e5768ff91cfa8",
+    "package": "mingw-w64-ucrt-x86_64-p11-kit"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libpango-1.0-0.dll",
+    "sha256": "fd92503a3fcab12fcf555cf8a47610f23b203cf888b48b5628629987d68215b8",
+    "package": "mingw-w64-ucrt-x86_64-pango"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libpangocairo-1.0-0.dll",
+    "sha256": "0af768e57c0aaf8f1dbafdff21b95a21d9cff7ae5be2e3e5ffa366c9dbf4f5c8",
+    "package": "mingw-w64-ucrt-x86_64-pango"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libpangoft2-1.0-0.dll",
+    "sha256": "27620f9c842109690616393b3616c29d5dfda8f8a0a980c0a5e869d4f75be925",
+    "package": "mingw-w64-ucrt-x86_64-pango"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libpangowin32-1.0-0.dll",
+    "sha256": "152832e8add3031293fca8152ac8450db9122ee5b20561160e025a078954162d",
+    "package": "mingw-w64-ucrt-x86_64-pango"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libpcre2-8-0.dll",
+    "sha256": "1f609cde2ce432efb7d2b0c7b84a14a6dbfc9622d1ac1a3cbadf51c5b0b4dada",
+    "package": "mingw-w64-ucrt-x86_64-pcre2"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libpixman-1-0.dll",
+    "sha256": "12e693d94829f013e0bd7c042b30998b20e91ece7b6f4d5f075ddbb58b373c92",
+    "package": "mingw-w64-ucrt-x86_64-pixman"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libplacebo-387.dll",
+    "sha256": "ebdc2d898ee396db8f342427f77a0af59b0823f853001eedefc801f05bd791b3",
+    "package": "mingw-w64-ucrt-x86_64-libplacebo"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libpng16-16.dll",
+    "sha256": "28db7a8c6fcc579ce621729d27f1952324cd3a2b4e24da121611bb586346e732",
+    "package": "mingw-w64-ucrt-x86_64-libpng"
+  },
+  {
+    "path": "tools/ffmpeg/bin/librav1e.dll",
+    "sha256": "bc549e2178589f371469d1bd23544859ff118e48218eae2bfca7126654988779",
+    "package": "mingw-w64-ucrt-x86_64-rav1e"
+  },
+  {
+    "path": "tools/ffmpeg/bin/librsvg-2-2.dll",
+    "sha256": "4fe1479c791a604fc184edc5b2e0c9d8dcd790bccfa326d3fa85fa2ec838a1ed",
+    "package": "mingw-w64-ucrt-x86_64-librsvg"
+  },
+  {
+    "path": "tools/ffmpeg/bin/librtmp-1.dll",
+    "sha256": "f9fecc5ce88e647cdc5960f125a91d9ed2e66f1ff812ee4160da69b0d416e5e2",
+    "package": "mingw-w64-ucrt-x86_64-rtmpdump"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libshaderc_shared.dll",
+    "sha256": "331df8a45983735b823c893a9b872c3414af6eadca9fa189d0b6dfe97960b3cf",
+    "package": "mingw-w64-ucrt-x86_64-shaderc"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libsharpyuv-0.dll",
+    "sha256": "d29380c7056383f3e7a80bf9e150f0b8c425c1cf2568d1336e88979ddc2307af",
+    "package": "mingw-w64-ucrt-x86_64-libwebp"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libsoxr.dll",
+    "sha256": "47f6a0fbaa08f7ba38b051de741ebc7a2613bfb3ed276ebbe6fbafb6ee47b445",
+    "package": "mingw-w64-ucrt-x86_64-libsoxr"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libspeex-1.dll",
+    "sha256": "70517dd82e962c0956f0e8d3bb700cd7ecc62b8c08741b35d71f2e95d601621d",
+    "package": "mingw-w64-ucrt-x86_64-speex"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libspirv-cross-c-shared.dll",
+    "sha256": "bc4bdcf63b9bbf60777bc10340050ae6edfbb3be3faf3fa636af53ecf7d2bbc8",
+    "package": "mingw-w64-ucrt-x86_64-spirv-cross"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libsrt.dll",
+    "sha256": "6ad77ab5b1a9dc3d2d0bb929bfe9c6a46eb119c5f81d32014176ab873abeebdc",
+    "package": "mingw-w64-ucrt-x86_64-srt"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libssh.dll",
+    "sha256": "dbaf4b60ccbcef6aa5d6385d8d1965d4f483999b9ced1d5a2afbf719028b3d1e",
+    "package": "mingw-w64-ucrt-x86_64-libssh"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libstdc++-6.dll",
+    "sha256": "4e4822dc4aaa99383f581dae7ab9464ae89346c5ca742f7efbcdebe20b0fe7b5",
+    "package": "mingw-w64-ucrt-x86_64-libstdc++"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libSvtAv1Enc-4.dll",
+    "sha256": "34f015c70ac283ba90bf5bbe0fec6e6af0fcbd50762566826405c8ccfade6e75",
+    "package": "mingw-w64-ucrt-x86_64-svt-av1"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libtasn1-6.dll",
+    "sha256": "9793128fa5028fe8d8b49407a6ed900a2315444f9f7444a146f0b62f08c1c5bb",
+    "package": "mingw-w64-ucrt-x86_64-libtasn1"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libthai-0.dll",
+    "sha256": "d8d8b87e9089a811e088f6a01da57c19ed54d2b6613bb85697f1958473f63666",
+    "package": "mingw-w64-ucrt-x86_64-libthai"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libtheoradec-2.dll",
+    "sha256": "0b9877e581421abe4090abacf2cd8c04df6de00520d7a34b9f41b46a11a02a80",
+    "package": "mingw-w64-ucrt-x86_64-libtheora"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libtheoraenc-2.dll",
+    "sha256": "ed0fb82d04220070d2f53832a9cb653546ddce2c704a53bfacae7597666db4d7",
+    "package": "mingw-w64-ucrt-x86_64-libtheora"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libtiff-6.dll",
+    "sha256": "d047260c3d456f84a2f9cd801d3b57bee0357cade32724caf16006c64c5fe8ff",
+    "package": "mingw-w64-ucrt-x86_64-libtiff"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libunibreak-7.dll",
+    "sha256": "f1f4bb5b5bb3dbf8d142df3012f13e4b5b0246565496d43718a6f33321e96283",
+    "package": "mingw-w64-ucrt-x86_64-libunibreak"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libunistring-5.dll",
+    "sha256": "ee39258fa1086269674a8179d3cfaf7c4e380ada14441b5dd9ed53d82d15c4e3",
+    "package": "mingw-w64-ucrt-x86_64-libunistring"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libva.dll",
+    "sha256": "20591e45edfcbf7f4b5735f9096b19be9796b0f61d1ab041f39d2732357593ae",
+    "package": "mingw-w64-ucrt-x86_64-libva"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libva_win32.dll",
+    "sha256": "2721e9c28099699b6d723d3d56671ca46db21a5bdb9e2c41df516da17d6539b7",
+    "package": "mingw-w64-ucrt-x86_64-libva"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libvidstab.dll",
+    "sha256": "6980084b957f32cf13248d8b0160a698d75e1148f6b35af85f57f559242fb623",
+    "package": "mingw-w64-ucrt-x86_64-vid.stab"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libvorbis-0.dll",
+    "sha256": "d1b40d7f33171ccb8cd2a238bea36c01176c54de5bf22afae332fb33f26a008f",
+    "package": "mingw-w64-ucrt-x86_64-libvorbis"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libvorbisenc-2.dll",
+    "sha256": "971cfa7c8866653aae9760a317dc3838e821f3911d9c6a8a8ef90f4a13de798f",
+    "package": "mingw-w64-ucrt-x86_64-libvorbis"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libvpl-2.dll",
+    "sha256": "88bd6fece68ebad05d3e78581455bb902cc1d3930018931d0830616097e74d73",
+    "package": "mingw-w64-ucrt-x86_64-libvpl"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libvpx-1.dll",
+    "sha256": "759bb95b0cd6c75bfce910f003b26a2d95ed3c94ef1a20dcfd4c89a0569f2016",
+    "package": "mingw-w64-ucrt-x86_64-libvpx"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libwebp-7.dll",
+    "sha256": "8dfe40c4e0abc90ddf18f080898987e01253d099b2b2d6daf7db521e55c00446",
+    "package": "mingw-w64-ucrt-x86_64-libwebp"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libwebpmux-3.dll",
+    "sha256": "9bd85116a22923d648d6b0ad09f21d08df7bd3d8860b24a5b4a6d4ac788b7340",
+    "package": "mingw-w64-ucrt-x86_64-libwebp"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libwhisper-1.dll",
+    "sha256": "3066e34a2716498198e9fc13f10898fb1012e7f636760e7d479fcd19d0ea7887",
+    "package": "mingw-w64-ucrt-x86_64-whisper.cpp"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libwinpthread-1.dll",
+    "sha256": "ee4f503512b09d7e2668518c41d6c176755a354523ae15aa4d36220c9cb31791",
+    "package": "mingw-w64-ucrt-x86_64-libwinpthread"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libx264-165.dll",
+    "sha256": "a58995b5af6d0fcf5d17f354bfa54bb05d99056ed167eec9c8e86a3a63478ec1",
+    "package": "mingw-w64-ucrt-x86_64-libx264"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libx265-217.dll",
+    "sha256": "48a6c942cab3196d740d7af3cfc8359dc7bd833c87c1ca24b8d231b70daa9e18",
+    "package": "mingw-w64-ucrt-x86_64-x265"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libxml2-16.dll",
+    "sha256": "2c971559c9bedb5459b35043de25886c9b36fc07536b6d84dfb84d938c46d5a4",
+    "package": "mingw-w64-ucrt-x86_64-libxml2"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libzimg-2.dll",
+    "sha256": "99625f39de8de654a90077362aafaa4e565c97908b39c0e9614562f9dfb57200",
+    "package": "mingw-w64-ucrt-x86_64-zimg"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libzstd.dll",
+    "sha256": "48368ab0ca622d0ec12f41ce85d91f22866bf5da92c77a69a06483564c93816c",
+    "package": "mingw-w64-ucrt-x86_64-zstd"
+  },
+  {
+    "path": "tools/ffmpeg/bin/libzvbi-0.dll",
+    "sha256": "8389bdf0a8b482cb6b80e4fe131d49c75779659db3f4afb259f5d6fff0b80e08",
+    "package": "mingw-w64-ucrt-x86_64-zvbi"
+  },
+  {
+    "path": "tools/ffmpeg/bin/swresample-7.dll",
+    "sha256": "00560c398597466608145a981ff0adcfeddcc83433eed73b58d49184965adf79",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/ffmpeg/bin/swscale-10.dll",
+    "sha256": "cbad748d25ae55e8ac8e6fdae0210c5ff7e69dd0f6b823fc59b5426ff3333cb3",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/ffmpeg/bin/vulkan-1.dll",
+    "sha256": "31862137c4179dcdbba782760f3e401f9fb526477947079d7f63987864f9b0eb",
+    "package": "mingw-w64-ucrt-x86_64-vulkan-loader"
+  },
+  {
+    "path": "tools/ffmpeg/bin/xvidcore.dll",
+    "sha256": "5107ab029f4f06a5a360ac769c20a150d4bd1a1922575517b9054768ff219611",
+    "package": "mingw-w64-ucrt-x86_64-xvidcore"
+  },
+  {
+    "path": "tools/ffmpeg/bin/zlib1.dll",
+    "sha256": "8ae7aeb0467763a1e271cd831ca8e2f7fd101602adb9923100ea26c6be2a559b",
+    "package": "mingw-w64-ucrt-x86_64-zlib"
+  },
+  {
+    "path": "tools/mpv/avcodec-63.dll",
+    "sha256": "341961a75de2757df542d03bc5c6ee286248c7225ab4f12645b3d31f638ead26",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/mpv/avdevice-63.dll",
+    "sha256": "b8493d3a10091e80d157c940be67ee977325e4874200a9b012e7e24c5f21ba85",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/mpv/avfilter-12.dll",
+    "sha256": "7a39cb865402ea888d7da8689cb468887bb52a2b222cb09e24d15cc261f5b413",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/mpv/avformat-63.dll",
+    "sha256": "f8c013b95153be9c94589a0ac4cc1f5350b0bbec0ef875c9cae0cf91824654d7",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/mpv/avutil-61.dll",
+    "sha256": "1d042ec28707f26a115f9da801cf6aba2395f3e2b6e408bcd043a4a95735288d",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/mpv/ggml-0.dll",
+    "sha256": "d9bdd05d8bfe2050b9724c223d2be3c6c6b93123d80f45fdba23419b1fce3f61",
+    "package": "mingw-w64-ucrt-x86_64-ggml"
+  },
+  {
+    "path": "tools/mpv/ggml-base-0.dll",
+    "sha256": "76160eb294c21aaef861f27d199ffafd5bc4e85e9a449f093a83b6f43b74389c",
+    "package": "mingw-w64-ucrt-x86_64-ggml"
+  },
+  {
+    "path": "tools/mpv/libaom.dll",
+    "sha256": "61c2c12b0fd9fb42b4cdb5eca107eded4abe6ba8d59941e33737260da6f5355e",
+    "package": "mingw-w64-ucrt-x86_64-aom"
+  },
+  {
+    "path": "tools/mpv/libarchive-13.dll",
+    "sha256": "607330aaac68f8977dc52eeb8f630c29a583f5edce36c8aae1e991a369520cab",
+    "package": "mingw-w64-ucrt-x86_64-libarchive"
+  },
+  {
+    "path": "tools/mpv/libass-9.dll",
+    "sha256": "cb2b46133b3bd9630384148bd7229e987af9703208d4329fc2215f4170b8dc6b",
+    "package": "mingw-w64-ucrt-x86_64-libass"
+  },
+  {
+    "path": "tools/mpv/libb2-1.dll",
+    "sha256": "01bbf64090367d511f41d9fc8f34c557f61d4a227b7c9e47ce04052cbfdc3e7d",
+    "package": "mingw-w64-ucrt-x86_64-libb2"
+  },
+  {
+    "path": "tools/mpv/libbluray-4.dll",
+    "sha256": "24870a1b32ff8b36cfa94479d802dfabc55a12e7bbde8584606f7e2d44d3c6dd",
+    "package": "mingw-w64-ucrt-x86_64-libbluray"
+  },
+  {
+    "path": "tools/mpv/libbrotlicommon.dll",
+    "sha256": "7b0047dc16dd92a7932124dfd5a6e698d342f533a15d37d61f710def66091436",
+    "package": "mingw-w64-ucrt-x86_64-brotli"
+  },
+  {
+    "path": "tools/mpv/libbrotlidec.dll",
+    "sha256": "c4c987a01597ddf969d93023f933f999a20f285588b0decb4deeb780c9e9cdf8",
+    "package": "mingw-w64-ucrt-x86_64-brotli"
+  },
+  {
+    "path": "tools/mpv/libbrotlienc.dll",
+    "sha256": "03f9a82d293caf5b4065a9641dd5309e27aefc5c8111eeec25f906e47ec6c934",
+    "package": "mingw-w64-ucrt-x86_64-brotli"
+  },
+  {
+    "path": "tools/mpv/libbz2-1.dll",
+    "sha256": "1790bf6473c9d48db14c1f0ee8124142327556d281299ea2a72ee361118ee01a",
+    "package": "mingw-w64-ucrt-x86_64-bzip2"
+  },
+  {
+    "path": "tools/mpv/libcaca-0.dll",
+    "sha256": "4ab7b69e156b77a76776237ad37054dc9558f18dc2cd4a9c2a4287a8811002b2",
+    "package": "mingw-w64-ucrt-x86_64-libcaca"
+  },
+  {
+    "path": "tools/mpv/libcairo-2.dll",
+    "sha256": "be391428fd305983f888becae10ebab9d8009637e7805383e822740043e95849",
+    "package": "mingw-w64-ucrt-x86_64-cairo"
+  },
+  {
+    "path": "tools/mpv/libcairo-gobject-2.dll",
+    "sha256": "060e586a23bc07d81cf9c9c2a3927dc2d61168fcc89b13601e98afdffffbfeb6",
+    "package": "mingw-w64-ucrt-x86_64-cairo"
+  },
+  {
+    "path": "tools/mpv/libcdio-21.dll",
+    "sha256": "3c420104ef8cc9c914712d0c137cc1b34697aacf747952ca4bbd74be0dd81736",
+    "package": "mingw-w64-ucrt-x86_64-libcdio"
+  },
+  {
+    "path": "tools/mpv/libcdio_cdda-2.dll",
+    "sha256": "acddc934acf082350de46298c22cff44509de02c4e446cae2a2b64347a6d63dd",
+    "package": "mingw-w64-ucrt-x86_64-libcdio-paranoia"
+  },
+  {
+    "path": "tools/mpv/libcdio_paranoia-2.dll",
+    "sha256": "5240faf7da48bad81b7c15d09b62641a2516edd677871d76807ef1b230ff4fba",
+    "package": "mingw-w64-ucrt-x86_64-libcdio-paranoia"
+  },
+  {
+    "path": "tools/mpv/libcrypto-3-x64.dll",
+    "sha256": "97308feea369b305e562c0098638a1b02a06f52ee9fcc4b8cf3da362ff563cf4",
+    "package": "mingw-w64-ucrt-x86_64-openssl"
+  },
+  {
+    "path": "tools/mpv/libdatrie-1.dll",
+    "sha256": "40aee3ae9a62a77454dfe8419fe21b54c54d969e0471c9e817b65d4502a9949f",
+    "package": "mingw-w64-ucrt-x86_64-libdatrie"
+  },
+  {
+    "path": "tools/mpv/libdav1d-7.dll",
+    "sha256": "bbe67862f77c22f6f509684207b5363542e5b52c1a1faa354e12a11d072ad766",
+    "package": "mingw-w64-ucrt-x86_64-dav1d"
+  },
+  {
+    "path": "tools/mpv/libdeflate.dll",
+    "sha256": "61a60665da9fd15a0e8668c47424f325e1d74479c3f896fa7ae48ffcee4ca300",
+    "package": "mingw-w64-ucrt-x86_64-libdeflate"
+  },
+  {
+    "path": "tools/mpv/libdovi.dll",
+    "sha256": "75988509f0d2166e2060ed548913bd7b34556bc16b3f9a02469de1dd2347a7fb",
+    "package": "mingw-w64-ucrt-x86_64-libdovi"
+  },
+  {
+    "path": "tools/mpv/libdvdcss-2.dll",
+    "sha256": "a691f36e9f4dd1dac01e841cada8d4f5500c3f8ad3171a129424a2194151b8e8",
+    "package": "mingw-w64-ucrt-x86_64-libdvdcss"
+  },
+  {
+    "path": "tools/mpv/libdvdnav-4.dll",
+    "sha256": "37cf3d8555ec2f00f50a6bef46b952bd0576c2db41d4debd6133a6c6bdeca02e",
+    "package": "mingw-w64-ucrt-x86_64-libdvdnav"
+  },
+  {
+    "path": "tools/mpv/libdvdread-8.dll",
+    "sha256": "658acc812360cf6c24d684ad250b2d0021d4c74a2e1229b477d66843906c351b",
+    "package": "mingw-w64-ucrt-x86_64-libdvdread"
+  },
+  {
+    "path": "tools/mpv/libexpat-1.dll",
+    "sha256": "8a10cf7e89524b621d5f74bd4aedc659c47c7ce397d489f323a1065ba695027a",
+    "package": "mingw-w64-ucrt-x86_64-expat"
+  },
+  {
+    "path": "tools/mpv/libffi-8.dll",
+    "sha256": "f96cf79b75f33a10023d001673b564538023395c94b3c58e1db53114976a7c25",
+    "package": "mingw-w64-ucrt-x86_64-libffi"
+  },
+  {
+    "path": "tools/mpv/libfftw3-3.dll",
+    "sha256": "0d600147b2479b83a5f437d3f8033e3607addb1bbd0c95f522d933564a2c7485",
+    "package": "mingw-w64-ucrt-x86_64-fftw"
+  },
+  {
+    "path": "tools/mpv/libfontconfig-1.dll",
+    "sha256": "be30a200fa4000d0a7a1d3911391969627440148f01d0028a319bcb9fa112202",
+    "package": "mingw-w64-ucrt-x86_64-fontconfig"
+  },
+  {
+    "path": "tools/mpv/libfreetype-6.dll",
+    "sha256": "19604dde573cbb8a13053fc231eee99b91cd972e0e9a3e1465f44ad6985e83ee",
+    "package": "mingw-w64-ucrt-x86_64-freetype"
+  },
+  {
+    "path": "tools/mpv/libfribidi-0.dll",
+    "sha256": "14bd0ed4c24d0068434bc23cd4f39e8dc0edcf56f2c9996b6fe39b39ffc54673",
+    "package": "mingw-w64-ucrt-x86_64-fribidi"
+  },
+  {
+    "path": "tools/mpv/libgcc_s_seh-1.dll",
+    "sha256": "791ebf66e99c7c1b4ed3666468cec45a0172b4c8942ac6c84c3e9cab3e1b5270",
+    "package": "mingw-w64-ucrt-x86_64-libgcc"
+  },
+  {
+    "path": "tools/mpv/libgdk_pixbuf-2.0-0.dll",
+    "sha256": "0f51ba434b2080ab14ce5d6b0b890620be3716fa15460d519bf641ca8441dcd0",
+    "package": "mingw-w64-ucrt-x86_64-gdk-pixbuf2"
+  },
+  {
+    "path": "tools/mpv/libgio-2.0-0.dll",
+    "sha256": "1256cbd7cb48df5ecea1646343d617c8e41a434216fdbb88ccfd78fe498442c8",
+    "package": "mingw-w64-ucrt-x86_64-glib2"
+  },
+  {
+    "path": "tools/mpv/libglib-2.0-0.dll",
+    "sha256": "3a1abec0184b238db54399cb9243393d9436d96b8fdb9bd9f2875da207c5b458",
+    "package": "mingw-w64-ucrt-x86_64-glib2"
+  },
+  {
+    "path": "tools/mpv/libgme.dll",
+    "sha256": "98e306bc1443f4f5a0744baf0477d2f856594bb3f8036440ad7cb1f30a1f5a72",
+    "package": "mingw-w64-ucrt-x86_64-libgme"
+  },
+  {
+    "path": "tools/mpv/libgmodule-2.0-0.dll",
+    "sha256": "5833f90d3c7a627d4d1b541e873bf0b10bca2204be89666213b3c48f6a57422d",
+    "package": "mingw-w64-ucrt-x86_64-glib2"
+  },
+  {
+    "path": "tools/mpv/libgmp-10.dll",
+    "sha256": "c2567ccf3f410c3411ba7cd4b7ba14f393a0e70a1d0c0593297df6706b5fba96",
+    "package": "mingw-w64-ucrt-x86_64-gmp"
+  },
+  {
+    "path": "tools/mpv/libgnutls-30.dll",
+    "sha256": "f7f05c96572506c81f2ffa89b518234afa4af2603aad8903db257a4f1e97e9e6",
+    "package": "mingw-w64-ucrt-x86_64-gnutls"
+  },
+  {
+    "path": "tools/mpv/libgobject-2.0-0.dll",
+    "sha256": "d12b1c34335cf605809af3b9bbed80a05c3334a9dbd02c0d398c1618d47f1d21",
+    "package": "mingw-w64-ucrt-x86_64-glib2"
+  },
+  {
+    "path": "tools/mpv/libgomp-1.dll",
+    "sha256": "ccaf59dc8cff15ace88ab47acd68a5b014167cad8f960e7683466a4c821e41c4",
+    "package": "mingw-w64-ucrt-x86_64-libgomp"
+  },
+  {
+    "path": "tools/mpv/libgraphite2.dll",
+    "sha256": "93953e4744bcfce9a7bc439b956544bc213095cb1349c3602a58370f32b25c18",
+    "package": "mingw-w64-ucrt-x86_64-graphite2"
+  },
+  {
+    "path": "tools/mpv/libgsm.dll",
+    "sha256": "b3446b547f8894bcabf0aa98a78146c60b1cf6dba7ab55e6a726fb3739276bf4",
+    "package": "mingw-w64-ucrt-x86_64-gsm"
+  },
+  {
+    "path": "tools/mpv/libharfbuzz-0.dll",
+    "sha256": "574ef797d2480d73283ecc993e272092bdb1dda45c4db5d36bf72a5a91baeec8",
+    "package": "mingw-w64-ucrt-x86_64-harfbuzz"
+  },
+  {
+    "path": "tools/mpv/libhogweed-7.dll",
+    "sha256": "b48e33181b78d715ba310581f4c72376c959854638bf635e1703e5fc1b783498",
+    "package": "mingw-w64-ucrt-x86_64-nettle"
+  },
+  {
+    "path": "tools/mpv/libhwy.dll",
+    "sha256": "9ba0ac7bad82c4c88e9bb8d6ca8c6a83877adc1f71cc48590c65b8d26108a41c",
+    "package": "mingw-w64-ucrt-x86_64-highway"
+  },
+  {
+    "path": "tools/mpv/libiconv-2.dll",
+    "sha256": "94ec68fb8d342b6c91b6b48a8d95092819cdcd006a7166e0b68062f946afd08a",
+    "package": "mingw-w64-ucrt-x86_64-libiconv"
+  },
+  {
+    "path": "tools/mpv/libidn2-0.dll",
+    "sha256": "a054a6bb69aaf4666157f968740412e9697085cbc1e48a78f8dd9622169c5aaf",
+    "package": "mingw-w64-ucrt-x86_64-libidn2"
+  },
+  {
+    "path": "tools/mpv/libintl-8.dll",
+    "sha256": "0e5a178731e6be6d115442a6ade3df7f03265cd1fc4338f8b6f86a8001cbf582",
+    "package": "mingw-w64-ucrt-x86_64-gettext-runtime"
+  },
+  {
+    "path": "tools/mpv/libjbig-0.dll",
+    "sha256": "36b6155be36d24a19154a48177a09978ff6c26f48665d8c7bb5057aaace6b91c",
+    "package": "mingw-w64-ucrt-x86_64-jbigkit"
+  },
+  {
+    "path": "tools/mpv/libjpeg-8.dll",
+    "sha256": "c63acd5a3231725aa96aa35444b74cd8d607a6fbdab1dd18b0e0ada7e39476d4",
+    "package": "mingw-w64-ucrt-x86_64-libjpeg-turbo"
+  },
+  {
+    "path": "tools/mpv/libjxl.dll",
+    "sha256": "f0db8ef57af445a5b807a5b6d27f9a3c4c7441af61cebfee5542fb7529fb35a5",
+    "package": "mingw-w64-ucrt-x86_64-libjxl"
+  },
+  {
+    "path": "tools/mpv/libjxl_cms.dll",
+    "sha256": "da3bf1847c40b66ffc036212d83f5e9acb0770de737d0383c8f1efbef65388c9",
+    "package": "mingw-w64-ucrt-x86_64-libjxl"
+  },
+  {
+    "path": "tools/mpv/libjxl_threads.dll",
+    "sha256": "b065e2464cf13626d2ad95f82091b4bd988dcc8aeb7fd65b364b59d4bdf4199e",
+    "package": "mingw-w64-ucrt-x86_64-libjxl"
+  },
+  {
+    "path": "tools/mpv/liblc3-1.dll",
+    "sha256": "970f6d805e215cc17df962c64e21449af3da97e09cb4a14a5f943bbd0e9c0329",
+    "package": "mingw-w64-ucrt-x86_64-liblc3"
+  },
+  {
+    "path": "tools/mpv/liblcms2-2.dll",
+    "sha256": "03314471fadd04cdd63c108472ff85d058903d236a0356c14eda363f0e1ccb65",
+    "package": "mingw-w64-ucrt-x86_64-lcms2"
+  },
+  {
+    "path": "tools/mpv/libLerc.dll",
+    "sha256": "1ffee78579c25b073267bcac8d0a6045d9bd446e010c7953b569b2629ca8a58a",
+    "package": "mingw-w64-ucrt-x86_64-lerc"
+  },
+  {
+    "path": "tools/mpv/liblz4.dll",
+    "sha256": "5e83fd34144fa033c12e22718317ec2123f8a3460903932b0bfddb8aad379cfd",
+    "package": "mingw-w64-ucrt-x86_64-lz4"
+  },
+  {
+    "path": "tools/mpv/liblzma-5.dll",
+    "sha256": "d97a260b8bb4f6affc34ec47249429240068b94bb6f7dc30c4d64daaafb3ac69",
+    "package": "mingw-w64-ucrt-x86_64-xz"
+  },
+  {
+    "path": "tools/mpv/libmodplug-1.dll",
+    "sha256": "d1425827ff8c5cc81dfc66d7d5660e9ea9bfda8ada71255a0c4847d0889ea62b",
+    "package": "mingw-w64-ucrt-x86_64-libmodplug"
+  },
+  {
+    "path": "tools/mpv/libmp3lame-0.dll",
+    "sha256": "d28ee2c6d87346e3a4d96b03731362273c6ee24ee14d7b861be57c5b366aab79",
+    "package": "mingw-w64-ucrt-x86_64-lame"
+  },
+  {
+    "path": "tools/mpv/libmpg123-0.dll",
+    "sha256": "bd63359e95781ce1a9f4e1d0d7c98be32583731e34d09df0c6a020d215048ff5",
+    "package": "mingw-w64-ucrt-x86_64-mpg123"
+  },
+  {
+    "path": "tools/mpv/libmujs.dll",
+    "sha256": "ee43a74b49fef7cf64c642d2951d4371aa8d00a61d9ce7178f437c61d27a8baf",
+    "package": "mingw-w64-ucrt-x86_64-mujs"
+  },
+  {
+    "path": "tools/mpv/libnettle-9.dll",
+    "sha256": "9b9f8bffca94d3cca7d1afb77d9deb0fa34427eaa05f1832037f46bc9e3dc134",
+    "package": "mingw-w64-ucrt-x86_64-nettle"
+  },
+  {
+    "path": "tools/mpv/libogg-0.dll",
+    "sha256": "2f102fba6f2a49516be85cb2643f6a9ba394dc5657aedb3ea235b6603c12d3d2",
+    "package": "mingw-w64-ucrt-x86_64-libogg"
+  },
+  {
+    "path": "tools/mpv/libopenal-1.dll",
+    "sha256": "cb33f3a9505f38b4a82510bf303547e5e66c525eff591085c752e3d81dfc51cb",
+    "package": "mingw-w64-ucrt-x86_64-openal"
+  },
+  {
+    "path": "tools/mpv/libopencore-amrnb-0.dll",
+    "sha256": "9d36d5661fd002f8889d90e0a53f2c5d693c641c075ef55c26ade85d958d1369",
+    "package": "mingw-w64-ucrt-x86_64-opencore-amr"
+  },
+  {
+    "path": "tools/mpv/libopencore-amrwb-0.dll",
+    "sha256": "54341e49eab692d77e0ff8534a40a3cce6d0d58b9cd157ed69c817c4b852bbdb",
+    "package": "mingw-w64-ucrt-x86_64-opencore-amr"
+  },
+  {
+    "path": "tools/mpv/libopenjp2-7.dll",
+    "sha256": "94f9507828d391cf96d700d34918114f1c1e03f91dd1243a19275e0435690925",
+    "package": "mingw-w64-ucrt-x86_64-openjpeg2"
+  },
+  {
+    "path": "tools/mpv/libopus-0.dll",
+    "sha256": "e747edad6bf02cf5cdcce417b95be3b7ba108f93df1b024778be5d73fa6dae39",
+    "package": "mingw-w64-ucrt-x86_64-opus"
+  },
+  {
+    "path": "tools/mpv/libp11-kit-0.dll",
+    "sha256": "c24fcbd4d67f6f837a1cc29bd37a2980670febfa64b1a424720e5768ff91cfa8",
+    "package": "mingw-w64-ucrt-x86_64-p11-kit"
+  },
+  {
+    "path": "tools/mpv/libpango-1.0-0.dll",
+    "sha256": "fd92503a3fcab12fcf555cf8a47610f23b203cf888b48b5628629987d68215b8",
+    "package": "mingw-w64-ucrt-x86_64-pango"
+  },
+  {
+    "path": "tools/mpv/libpangocairo-1.0-0.dll",
+    "sha256": "0af768e57c0aaf8f1dbafdff21b95a21d9cff7ae5be2e3e5ffa366c9dbf4f5c8",
+    "package": "mingw-w64-ucrt-x86_64-pango"
+  },
+  {
+    "path": "tools/mpv/libpangoft2-1.0-0.dll",
+    "sha256": "27620f9c842109690616393b3616c29d5dfda8f8a0a980c0a5e869d4f75be925",
+    "package": "mingw-w64-ucrt-x86_64-pango"
+  },
+  {
+    "path": "tools/mpv/libpangowin32-1.0-0.dll",
+    "sha256": "152832e8add3031293fca8152ac8450db9122ee5b20561160e025a078954162d",
+    "package": "mingw-w64-ucrt-x86_64-pango"
+  },
+  {
+    "path": "tools/mpv/libpcre2-8-0.dll",
+    "sha256": "1f609cde2ce432efb7d2b0c7b84a14a6dbfc9622d1ac1a3cbadf51c5b0b4dada",
+    "package": "mingw-w64-ucrt-x86_64-pcre2"
+  },
+  {
+    "path": "tools/mpv/libpixman-1-0.dll",
+    "sha256": "12e693d94829f013e0bd7c042b30998b20e91ece7b6f4d5f075ddbb58b373c92",
+    "package": "mingw-w64-ucrt-x86_64-pixman"
+  },
+  {
+    "path": "tools/mpv/libplacebo-387.dll",
+    "sha256": "ebdc2d898ee396db8f342427f77a0af59b0823f853001eedefc801f05bd791b3",
+    "package": "mingw-w64-ucrt-x86_64-libplacebo"
+  },
+  {
+    "path": "tools/mpv/libpng16-16.dll",
+    "sha256": "28db7a8c6fcc579ce621729d27f1952324cd3a2b4e24da121611bb586346e732",
+    "package": "mingw-w64-ucrt-x86_64-libpng"
+  },
+  {
+    "path": "tools/mpv/libpython3.14.dll",
+    "sha256": "8c152688a459c1e126172a765a24484a0ba6c2b11a296afd4e2596797727d77d",
+    "package": "mingw-w64-ucrt-x86_64-python"
+  },
+  {
+    "path": "tools/mpv/librav1e.dll",
+    "sha256": "bc549e2178589f371469d1bd23544859ff118e48218eae2bfca7126654988779",
+    "package": "mingw-w64-ucrt-x86_64-rav1e"
+  },
+  {
+    "path": "tools/mpv/librsvg-2-2.dll",
+    "sha256": "4fe1479c791a604fc184edc5b2e0c9d8dcd790bccfa326d3fa85fa2ec838a1ed",
+    "package": "mingw-w64-ucrt-x86_64-librsvg"
+  },
+  {
+    "path": "tools/mpv/librtmp-1.dll",
+    "sha256": "f9fecc5ce88e647cdc5960f125a91d9ed2e66f1ff812ee4160da69b0d416e5e2",
+    "package": "mingw-w64-ucrt-x86_64-rtmpdump"
+  },
+  {
+    "path": "tools/mpv/librubberband-3.dll",
+    "sha256": "8ff9e6c1ddb42ed87ebed217aaadcde439e4be1f84b8963f45a8ac7116af0551",
+    "package": "mingw-w64-ucrt-x86_64-rubberband"
+  },
+  {
+    "path": "tools/mpv/libsamplerate-0.dll",
+    "sha256": "4f7f9b2ecea84bb8f5b27c8f36e85e8a100663c745ac25e82a512f485b663ac7",
+    "package": "mingw-w64-ucrt-x86_64-libsamplerate"
+  },
+  {
+    "path": "tools/mpv/libshaderc_shared.dll",
+    "sha256": "331df8a45983735b823c893a9b872c3414af6eadca9fa189d0b6dfe97960b3cf",
+    "package": "mingw-w64-ucrt-x86_64-shaderc"
+  },
+  {
+    "path": "tools/mpv/libsharpyuv-0.dll",
+    "sha256": "d29380c7056383f3e7a80bf9e150f0b8c425c1cf2568d1336e88979ddc2307af",
+    "package": "mingw-w64-ucrt-x86_64-libwebp"
+  },
+  {
+    "path": "tools/mpv/libsoxr.dll",
+    "sha256": "47f6a0fbaa08f7ba38b051de741ebc7a2613bfb3ed276ebbe6fbafb6ee47b445",
+    "package": "mingw-w64-ucrt-x86_64-libsoxr"
+  },
+  {
+    "path": "tools/mpv/libspeex-1.dll",
+    "sha256": "70517dd82e962c0956f0e8d3bb700cd7ecc62b8c08741b35d71f2e95d601621d",
+    "package": "mingw-w64-ucrt-x86_64-speex"
+  },
+  {
+    "path": "tools/mpv/libspirv-cross-c-shared.dll",
+    "sha256": "bc4bdcf63b9bbf60777bc10340050ae6edfbb3be3faf3fa636af53ecf7d2bbc8",
+    "package": "mingw-w64-ucrt-x86_64-spirv-cross"
+  },
+  {
+    "path": "tools/mpv/libsrt.dll",
+    "sha256": "6ad77ab5b1a9dc3d2d0bb929bfe9c6a46eb119c5f81d32014176ab873abeebdc",
+    "package": "mingw-w64-ucrt-x86_64-srt"
+  },
+  {
+    "path": "tools/mpv/libssh.dll",
+    "sha256": "dbaf4b60ccbcef6aa5d6385d8d1965d4f483999b9ced1d5a2afbf719028b3d1e",
+    "package": "mingw-w64-ucrt-x86_64-libssh"
+  },
+  {
+    "path": "tools/mpv/libstdc++-6.dll",
+    "sha256": "4e4822dc4aaa99383f581dae7ab9464ae89346c5ca742f7efbcdebe20b0fe7b5",
+    "package": "mingw-w64-ucrt-x86_64-libstdc++"
+  },
+  {
+    "path": "tools/mpv/libSvtAv1Enc-4.dll",
+    "sha256": "34f015c70ac283ba90bf5bbe0fec6e6af0fcbd50762566826405c8ccfade6e75",
+    "package": "mingw-w64-ucrt-x86_64-svt-av1"
+  },
+  {
+    "path": "tools/mpv/libtasn1-6.dll",
+    "sha256": "9793128fa5028fe8d8b49407a6ed900a2315444f9f7444a146f0b62f08c1c5bb",
+    "package": "mingw-w64-ucrt-x86_64-libtasn1"
+  },
+  {
+    "path": "tools/mpv/libthai-0.dll",
+    "sha256": "d8d8b87e9089a811e088f6a01da57c19ed54d2b6613bb85697f1958473f63666",
+    "package": "mingw-w64-ucrt-x86_64-libthai"
+  },
+  {
+    "path": "tools/mpv/libtheoradec-2.dll",
+    "sha256": "0b9877e581421abe4090abacf2cd8c04df6de00520d7a34b9f41b46a11a02a80",
+    "package": "mingw-w64-ucrt-x86_64-libtheora"
+  },
+  {
+    "path": "tools/mpv/libtheoraenc-2.dll",
+    "sha256": "ed0fb82d04220070d2f53832a9cb653546ddce2c704a53bfacae7597666db4d7",
+    "package": "mingw-w64-ucrt-x86_64-libtheora"
+  },
+  {
+    "path": "tools/mpv/libtiff-6.dll",
+    "sha256": "d047260c3d456f84a2f9cd801d3b57bee0357cade32724caf16006c64c5fe8ff",
+    "package": "mingw-w64-ucrt-x86_64-libtiff"
+  },
+  {
+    "path": "tools/mpv/libuchardet.dll",
+    "sha256": "75f34913b3c3fe264c4471a47f4f3e3a14fed397824122936f1ba40a7712a7a4",
+    "package": "mingw-w64-ucrt-x86_64-uchardet"
+  },
+  {
+    "path": "tools/mpv/libunibreak-7.dll",
+    "sha256": "f1f4bb5b5bb3dbf8d142df3012f13e4b5b0246565496d43718a6f33321e96283",
+    "package": "mingw-w64-ucrt-x86_64-libunibreak"
+  },
+  {
+    "path": "tools/mpv/libunistring-5.dll",
+    "sha256": "ee39258fa1086269674a8179d3cfaf7c4e380ada14441b5dd9ed53d82d15c4e3",
+    "package": "mingw-w64-ucrt-x86_64-libunistring"
+  },
+  {
+    "path": "tools/mpv/libva.dll",
+    "sha256": "20591e45edfcbf7f4b5735f9096b19be9796b0f61d1ab041f39d2732357593ae",
+    "package": "mingw-w64-ucrt-x86_64-libva"
+  },
+  {
+    "path": "tools/mpv/libva_win32.dll",
+    "sha256": "2721e9c28099699b6d723d3d56671ca46db21a5bdb9e2c41df516da17d6539b7",
+    "package": "mingw-w64-ucrt-x86_64-libva"
+  },
+  {
+    "path": "tools/mpv/libvapoursynth-script-0.dll",
+    "sha256": "0c7a3686ae79719175ff8af8d726250b348875617b56d176804b53e9ad6e36cf",
+    "package": "mingw-w64-ucrt-x86_64-vapoursynth"
+  },
+  {
+    "path": "tools/mpv/libvidstab.dll",
+    "sha256": "6980084b957f32cf13248d8b0160a698d75e1148f6b35af85f57f559242fb623",
+    "package": "mingw-w64-ucrt-x86_64-vid.stab"
+  },
+  {
+    "path": "tools/mpv/libvorbis-0.dll",
+    "sha256": "d1b40d7f33171ccb8cd2a238bea36c01176c54de5bf22afae332fb33f26a008f",
+    "package": "mingw-w64-ucrt-x86_64-libvorbis"
+  },
+  {
+    "path": "tools/mpv/libvorbisenc-2.dll",
+    "sha256": "971cfa7c8866653aae9760a317dc3838e821f3911d9c6a8a8ef90f4a13de798f",
+    "package": "mingw-w64-ucrt-x86_64-libvorbis"
+  },
+  {
+    "path": "tools/mpv/libvpl-2.dll",
+    "sha256": "88bd6fece68ebad05d3e78581455bb902cc1d3930018931d0830616097e74d73",
+    "package": "mingw-w64-ucrt-x86_64-libvpl"
+  },
+  {
+    "path": "tools/mpv/libvpx-1.dll",
+    "sha256": "759bb95b0cd6c75bfce910f003b26a2d95ed3c94ef1a20dcfd4c89a0569f2016",
+    "package": "mingw-w64-ucrt-x86_64-libvpx"
+  },
+  {
+    "path": "tools/mpv/libwebp-7.dll",
+    "sha256": "8dfe40c4e0abc90ddf18f080898987e01253d099b2b2d6daf7db521e55c00446",
+    "package": "mingw-w64-ucrt-x86_64-libwebp"
+  },
+  {
+    "path": "tools/mpv/libwebpmux-3.dll",
+    "sha256": "9bd85116a22923d648d6b0ad09f21d08df7bd3d8860b24a5b4a6d4ac788b7340",
+    "package": "mingw-w64-ucrt-x86_64-libwebp"
+  },
+  {
+    "path": "tools/mpv/libwhisper-1.dll",
+    "sha256": "3066e34a2716498198e9fc13f10898fb1012e7f636760e7d479fcd19d0ea7887",
+    "package": "mingw-w64-ucrt-x86_64-whisper.cpp"
+  },
+  {
+    "path": "tools/mpv/libwinpthread-1.dll",
+    "sha256": "ee4f503512b09d7e2668518c41d6c176755a354523ae15aa4d36220c9cb31791",
+    "package": "mingw-w64-ucrt-x86_64-libwinpthread"
+  },
+  {
+    "path": "tools/mpv/libx264-165.dll",
+    "sha256": "a58995b5af6d0fcf5d17f354bfa54bb05d99056ed167eec9c8e86a3a63478ec1",
+    "package": "mingw-w64-ucrt-x86_64-libx264"
+  },
+  {
+    "path": "tools/mpv/libx265-217.dll",
+    "sha256": "48a6c942cab3196d740d7af3cfc8359dc7bd833c87c1ca24b8d231b70daa9e18",
+    "package": "mingw-w64-ucrt-x86_64-x265"
+  },
+  {
+    "path": "tools/mpv/libxml2-16.dll",
+    "sha256": "2c971559c9bedb5459b35043de25886c9b36fc07536b6d84dfb84d938c46d5a4",
+    "package": "mingw-w64-ucrt-x86_64-libxml2"
+  },
+  {
+    "path": "tools/mpv/libzimg-2.dll",
+    "sha256": "99625f39de8de654a90077362aafaa4e565c97908b39c0e9614562f9dfb57200",
+    "package": "mingw-w64-ucrt-x86_64-zimg"
+  },
+  {
+    "path": "tools/mpv/libzstd.dll",
+    "sha256": "48368ab0ca622d0ec12f41ce85d91f22866bf5da92c77a69a06483564c93816c",
+    "package": "mingw-w64-ucrt-x86_64-zstd"
+  },
+  {
+    "path": "tools/mpv/libzvbi-0.dll",
+    "sha256": "8389bdf0a8b482cb6b80e4fe131d49c75779659db3f4afb259f5d6fff0b80e08",
+    "package": "mingw-w64-ucrt-x86_64-zvbi"
+  },
+  {
+    "path": "tools/mpv/lua51.dll",
+    "sha256": "a8e7e60a412a5815ff38a9f5a116a452bff5b89e3d7019ed3ff45123b2aa8464",
+    "package": "mingw-w64-ucrt-x86_64-lua51"
+  },
+  {
+    "path": "tools/mpv/mpv.exe",
+    "sha256": "193b4174044930d5d535afc4b9e69449dc25d2b0ebf0b8234a904d742f5f4569",
+    "package": "mingw-w64-ucrt-x86_64-mpv"
+  },
+  {
+    "path": "tools/mpv/swresample-7.dll",
+    "sha256": "00560c398597466608145a981ff0adcfeddcc83433eed73b58d49184965adf79",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/mpv/swscale-10.dll",
+    "sha256": "cbad748d25ae55e8ac8e6fdae0210c5ff7e69dd0f6b823fc59b5426ff3333cb3",
+    "package": "mingw-w64-ucrt-x86_64-ffmpeg"
+  },
+  {
+    "path": "tools/mpv/vulkan-1.dll",
+    "sha256": "31862137c4179dcdbba782760f3e401f9fb526477947079d7f63987864f9b0eb",
+    "package": "mingw-w64-ucrt-x86_64-vulkan-loader"
+  },
+  {
+    "path": "tools/mpv/xvidcore.dll",
+    "sha256": "5107ab029f4f06a5a360ac769c20a150d4bd1a1922575517b9054768ff219611",
+    "package": "mingw-w64-ucrt-x86_64-xvidcore"
+  },
+  {
+    "path": "tools/mpv/zlib1.dll",
+    "sha256": "8ae7aeb0467763a1e271cd831ca8e2f7fd101602adb9923100ea26c6be2a559b",
+    "package": "mingw-w64-ucrt-x86_64-zlib"
+  }
+]

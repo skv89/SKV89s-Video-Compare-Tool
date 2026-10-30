@@ -1,10 +1,18 @@
-# SKV89's Video Compare Tool v1.1.4
+# SKV89's Video Compare Tool v1.2.0
 
 A portable Windows app for comparing two videos, lining up corresponding scenes, and saving paired frames.
 
-[Download v1.1.4 for Windows x64](https://github.com/skv89/SKV89s-Video-Compare-Tool/releases/tag/v1.1.4) · [Changelog](https://github.com/skv89/SKV89s-Video-Compare-Tool/releases/tag/v1.1.4)
+[Download v1.2.0 for Windows x64](https://github.com/skv89/SKV89s-Video-Compare-Tool/releases/download/v1.2.0/SKV89s-Video-Compare-Tool-v1.2.0-Windows-x64-Portable.zip) · [Changelog](https://github.com/skv89/SKV89s-Video-Compare-Tool/releases/tag/v1.2.0)
 
-![Main window](screenshots/02-main-window-v1.1.3.png)
+**Download size: 701.3 MB, including 477.2 MB of built-in benchmark videos used by Optimize for this computer.**
+
+[Third-party sources and build records](https://github.com/skv89/SKV89s-Video-Compare-Tool/blob/v1.2.0/third-party/v1.2.0/README.md) (for developers; not needed to run).
+
+![Main window](screenshots/08-main-window-v1.2.0.png)
+
+## New in v1.2.0
+
+Classic mode now supports holding the left mouse button and dragging left/right to scan both videos together. This release also adds per-computer search optimization, optional NVIDIA-assisted scene discovery and picture-area matching since v1.1.4. The download remains a multi-file portable folder: extract once and run the EXE from that folder.
 
 ## Faster to open, smoother to use
 
@@ -14,7 +22,7 @@ Actual system-resource use depends on the videos, playback, and sync searches; t
 
 ## Start comparing
 
-Extract the complete ZIP to a writable folder, run **SKV89's Video Compare Tool.exe**, and choose two videos. Select a comparison mode and start full-screen comparison. Keep the entire folder together, including `_internal`, `tools`, and `licenses`; no separate Python installation is needed.
+Extract the complete ZIP to a writable folder, run **SKV89's Video Compare Tool.exe**, and choose two videos. Classic Video Compare is selected on first launch. Choose another mode if you prefer, then start full-screen comparison. The app opens maximized and remembers your chosen mode. Keep the entire folder together, including `_internal`, `tools`, and `licenses`; no separate Python installation is needed.
 
 For everyday use, **adding the SendTo or right-click command is highly recommended**. Select two files in Explorer and open them directly in the app.
 
@@ -36,7 +44,7 @@ Move the cursor horizontally to place a thin dividing line through the same face
 
 ### 3. Classic Video Compare
 
-The cursor controls the reveal line, with no bottom transport panel. Click anywhere across the picture to seek by that percentage of the comparison timeline—for example, 23% across means 23% through the video. The bottom-right timestamp previews the location under the cursor. This interaction is inspired by [pixop/video-compare](https://github.com/pixop/video-compare). Tab swaps sides.
+The cursor controls the reveal line, with no bottom transport panel. Click anywhere across the picture to seek by that percentage of the comparison timeline—for example, 23% across means 23% through the video. **Hold the left mouse button and drag left/right to scan both aligned videos together, just like dragging the timeline.** Playback pauses while you drag and returns to its previous play/pause state when you release. The bottom-right timestamp previews the location under the cursor. This interaction is inspired by [pixop/video-compare](https://github.com/pixop/video-compare). Tab swaps sides.
 
 ![Classic Video Compare](screenshots/04-classic-video-compare.png)
 
@@ -62,11 +70,37 @@ If an advertisement, extra scene, or different intro breaks alignment later, mov
 
 For manual adjustments, **8 / 9** move only Video 1 backward / forward, and **5 / 6** move only Video 2. Tap for one source frame; hold to scan progressively faster. **Ctrl+Z** undoes a sync action and **Ctrl+Y** redoes it.
 
-### Search performance
+### Optimize for this computer
 
-Leave CPU workers on **Auto** to start conservatively. The optional **Optimize Auto** benchmark finds repeatably useful settings for your computer and source types, keeping separate Fast and Deep profiles. More workers are not always faster. Results can be resized or maximized for reading. Benchmark cancellation preserves previously saved valid settings.
+Leave **CPU workers** on **Auto**, then open **Optimize for this computer…**. No personal videos are needed: the app uses licensed built-in moving-video samples and prepares additional workloads locally.
 
-Sync search uses the CPU. Video playback can still use supported hardware decoding. Whole-video searches and high-resolution sources may take substantially longer than short-range searches.
+![Choose a complete optimization suite and follow its progress](screenshots/09-optimize-suite-v1.2.0.png)
+
+Choose **Standard** for eight common HD/4K categories, or **Extended** for all 36 H.264, HEVC and AV1 categories across SD/HD/4K, 8/10-bit and two frame-rate bands. **Both Fast and Deep** tests both methods automatically—16 cases for Standard, 72 for Extended. The tab you are viewing does not change the tests. You can also choose one method or select individual categories.
+
+The selected suite runs to completion. There is no short overall time limit; larger suites can take hours. Each measurement appears in Live results as it finishes. **Results…** opens configuration summaries and individual runs, with timings, resource limits and explanations of failed checks. **Stop** preserves progress; **Resume interrupted run** continues a compatible interrupted queue.
+
+The optimizer compares CPU job counts and decoder-thread counts separately, testing a total budget of up to **32 decoder threads** when supported by the processor, available work and memory. It confirms contenders with repeated complete searches and independent scenes, and tries alternatives or extra measurements when results need clarification. Results describe the best verified choices among those tested, not a guaranteed global optimum. Close other heavy applications for more representative measurements.
+
+At completion, choose **Apply verified recommendations** or **Let me review first**. Review and edit settings in **Auto settings**, then click **Apply changes**. Proposed settings are not active until applied. Explicit Manual/Default choices are preserved when applying benchmark recommendations; unsaved changes remain clearly marked.
+
+![Edit resource limits separately for each category and method](screenshots/10-auto-settings-v1.2.0.png)
+
+Every category has separate Fast and Deep rows. Type **Jobs** and **Threads / job** directly, or use the arrows. **Default** restores the built-in limits; **Optimized** restores the latest compatible measured recommendation. You can resize columns and collapse codec groups. Saved settings remain active until you apply edits.
+
+Untuned Auto starts at **4 jobs × up to 4 decoder threads** on CPUs with 16 or more logical processors, **2 × 4** on 8–15, and smaller limits below eight. These are maximum software-thread budgets, not reserved cores. More jobs or threads are not always faster. A number selected in the main CPU-workers dropdown overrides category tuning and uses CPU-only search; select **Auto** to use the per-category settings.
+
+### Optional NVIDIA-assisted search
+
+On compatible NVIDIA hardware, supported H.264 and HEVC rows offer **GPU + CPU**. You can select it manually without benchmarking. CPU-only rows show a plain CPU field. AV1, interlaced sources and unsupported layouts use CPU in this search backend; playback hardware decoding is separate.
+
+GPU decoding helps discover candidate scenes; the CPU still performs independent detailed verification. Per-frame GPU decode-status checks add error evidence, but cannot guarantee detection of every damaged file. Reported corruption or unresolved terminal decode status stops the search. A capability or infrastructure failure can retry on CPU. Automatic GPU recommendations require a measured complete-search improvement; there is no universal speedup. GPU benchmarking stops at 91°C or loss of required temperature telemetry.
+
+Each video uses settings appropriate to its role. The chosen **Fixed** frame stays fixed: reference reading uses that video's CPU/evidence limit, while target scanning uses the searched video's CPU or GPU settings. A CPU-only reference does not disable a supported GPU target. **Current video settings…** explains the limits for both files; progress and the completed result report the actual route.
+
+### Match videos with decorative side panels
+
+Use **Picture area…** when one version includes static wallpaper or other decorative edge panels. **Auto** excludes panels from matching only when it finds strong supporting evidence; **Full frame** keeps them, and **Custom** lets you specify the picture rectangle. Ambiguous scenes retain the full picture. The selected area affects matching analysis only: displayed video, screenshots and source files stay unchanged. Cropped sampling uses CPU, while an eligible full-frame target can still use GPU scanning.
 
 ### Comparing motion fairly
 
@@ -100,6 +134,7 @@ Both are per-user and removable from the app. If you move the portable folder, r
 
 | Input | Action |
 | --- | --- |
+| Left-button hold and drag (Classic) | Scan both aligned videos together; release to restore the previous playback state |
 | Space | Play or pause both videos |
 | Enter | Auto-sync the current reference scene |
 | Y | Show or hide independent Sync controls |
@@ -121,8 +156,17 @@ Both are per-user and removable from the app. If you move the portable folder, r
 
 ## Requirements and download
 
-Windows x64, a writable portable folder, and enough decoding capacity for two videos at once. Download the portable ZIP from the [v1.1.4 release](https://github.com/skv89/SKV89s-Video-Compare-Tool/releases/tag/v1.1.4); the SHA-256 file lets you verify the download. The executable is unsigned, so Windows may display a reputation warning.
+Windows x64, a writable portable folder, and enough decoding capacity for two videos at once. Download the portable ZIP from the [v1.2.0 release](https://github.com/skv89/SKV89s-Video-Compare-Tool/releases/tag/v1.2.0); the SHA-256 file lets you verify the download. The executable is unsigned, so Windows may display a reputation warning.
 
-FFmpeg, FFprobe, mpv, and required runtime/license notices are included. Keep the full extracted folder together. The app does not modify the source videos.
+FFmpeg, FFprobe, mpv, NVIDIA support runtimes, licensed benchmark samples, and third-party notices are included. GPU acceleration is optional; CPU operation remains available. This software uses FFmpeg libraries under the LGPL and separate FFmpeg/mpv programs under the GPL; see the package’s THIRD_PARTY_NOTICES.md and licenses folder for component licenses and source information. Keep the full extracted folder together. The app does not modify or upload the source videos. Keep the portable folder writable for optimization data and captures.
 
 This independent project is not affiliated with or endorsed by Topaz Labs. Topaz and its model names belong to their respective owner.
+
+For upgrading and settings locations, see the README inside the download. Previous v1.1.4 CPU tuning files remain untouched; they are not imported into the new optimizer, so run Optimize again. Valid v1.2 suite history remains readable after an engine, runtime or hardware change, but only compatible results can supply active recommendations.
+
+<details>
+<summary>Third-party sources and build records — not needed to run the app</summary>
+
+The portable package includes FFmpeg/FFprobe 9.0.2 and mpv 0.41.0. [Exact third-party source downloads and build records](https://github.com/skv89/SKV89s-Video-Compare-Tool/blob/v1.2.0/third-party/v1.2.0/README.md) are available for inspecting or rebuilding these dependencies. The sources are hosted by their upstream providers; no large source archive is included among the application downloads. These materials are not needed to run Video Compare.
+
+</details>
